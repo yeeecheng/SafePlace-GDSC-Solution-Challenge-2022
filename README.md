@@ -15,8 +15,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
  ###### &emsp;&emsp; Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation 
 
 * #####  United Nations' Sustainable Development Goal 11: Sustainable Citys and Communitues
-###### &emsp;&emsp; By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport,
-###### &emsp;&emsp; with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.” 
+######  By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.” 
 
 ***
 
