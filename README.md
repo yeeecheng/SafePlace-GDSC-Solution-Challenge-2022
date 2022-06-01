@@ -1,4 +1,4 @@
-# 2022-SafePlace-SolutionChallenge
+# SafePlace-GDSC-Solution-Challenge-2022
 
 ## About
 ### Motivation
