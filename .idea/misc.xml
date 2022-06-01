@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout-sw320dp/activity_main.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/activity_intro.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/activity_main.xml" value="0.4107142857142857" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/add_a_store_fragment.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/call_contact_item.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/call_intro_screen.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/dialog_add_contact_item.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/infowindow.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/intro_fragment.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/arthu/AndroidStudioProjects/saveplace_fimal/app/src/main/res/layout/intro_screen.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_baseline_local_convenience_store.xml" value="0.1" />
+        <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_baseline_local_fire_department_24.xml" value="0.1" />
+        <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_baseline_local_gas_station.xml" value="0.1" />
+        <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_danger.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

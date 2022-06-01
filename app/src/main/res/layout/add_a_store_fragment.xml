@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.contactList.ContactFragment">
+
+        <LinearLayout
+            android:id="@+id/add_a_store_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <EditText
+                android:id="@+id/et_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/grey3"
+                android:ems="10"
+                android:hint="Store Name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/grey3" />
+
+            <Spinner
+                android:id="@+id/spinner_store_kind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:minHeight="48dp"
+                android:textColor="@color/gray"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/et_store_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/grey3"
+                android:ems="10"
+                android:hint="Store Information"
+                android:inputType="text"
+                android:maxLength="20"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/grey3"
+
+                />
+
+            <EditText
+                android:id="@+id/et_store_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="@color/grey3"
+                android:ems="10"
+                android:hint="Store Address"
+                android:inputType="text"
+                android:maxLength="10"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/grey3"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner_store_open_time"
+                    android:layout_width="130sp"
+                    android:layout_height="match_parent"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=" - "
+                    android:textSize="30sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_store_close_time"
+                    android:layout_width="130sp"
+                    android:layout_height="match_parent"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/rv_report_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32sp"
+                android:background="@drawable/shape_button"
+                android:text="@string/report"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</layout>

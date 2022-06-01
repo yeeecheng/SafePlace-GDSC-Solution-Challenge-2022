@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group>
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/nav_contact"
+        android:title="@string/emergency_contact"
+        android:icon="@drawable/ic_contact_person" />
+    <item
+        android:id="@+id/nav_add_a_store"
+        android:title="@string/add_a_store"
+        android:icon="@drawable/ic_store" />
+    <item
+        android:id="@+id/nav_help"
+        android:title="@string/help"
+        android:icon="@drawable/ic_help" />
+    </group>
+    <item android:title="@string/hot_point"
+        android:id="@+id/hot_point">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_convenience_store"
+                    android:title="@string/convenience_store"
+                    android:icon="@drawable/ic_baseline_local_convenience_store"
+                    app:actionLayout="@layout/switch_convenience_store"
+                    />
+                <item
+                    android:id="@+id/nav_gas_station"
+                    android:title="@string/gas_station"
+                    android:icon="@drawable/ic_baseline_local_gas_station"
+                    app:actionLayout="@layout/switch_gas_station"/>
+                <item
+                    android:id="@+id/nav_police_station"
+                    android:title="@string/police_station"
+                    android:icon="@drawable/ic_baseline_local_police"
+                    app:actionLayout="@layout/switch_police_station"
+                    />
+                <item
+                    android:id="@+id/nav_fire_department"
+                    android:title="@string/fire_department"
+                    android:icon="@drawable/ic_baseline_local_fire_department_24"
+                    app:actionLayout="@layout/switch_fire_department"
+                    />
+                <item
+                    android:id="@+id/nav_hospital"
+                    android:title="@string/hospital"
+                    android:icon="@drawable/ic_baseline_local_hospital_24"
+                    app:actionLayout="@layout/switch_hospital"
+                    />
+                <item
+                    android:id="@+id/nav_restaurant"
+                    android:title="@string/restaurant"
+                    android:icon="@drawable/ic_baseline_restaurant_24"
+                    app:actionLayout="@layout/switch_restaurant"
+                    />
+                <item
+                    android:id="@+id/nav_other"
+                    android:title="@string/other"
+                    android:icon="@drawable/ic_baseline_storefront_24"
+                    app:actionLayout="@layout/switch_other"
+                    />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/setting"
+        android:id="@+id/setting">
+        <menu>
+            <group>
+<!--            <item-->
+<!--                android:id="@+id/nav_navigation"-->
+<!--                android:title="@string/navigate"-->
+<!--                android:icon="@drawable/ic_navigation"-->
+<!--                app:actionLayout="@layout/switch_navigation"-->
+<!--                />-->
+            <item
+                android:id="@+id/nav_light_mode"
+                android:title="@string/light"
+                android:icon="@drawable/ic_light_mode"
+                app:actionLayout="@layout/switch_light"
+                />
+            </group>
+        </menu>
+    </item>
+<!--    <item android:title="@string/setting">-->
+<!--        <menu>-->
+<!--            <group>-->
+<!--                <item-->
+<!--                    android:id="@+id/nav_help"-->
+<!--                    android:title="@string/help"-->
+<!--                    android:icon="@drawable/ic_help"-->
+<!--                    />-->
+<!--            </group>-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>

@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name" translatable="false">Safe Place</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="add">Add</string>
+    <string name="report">Report</string>
+    <string name="add_new_contact">Add New Contact</string>
+    <string name="edit_contact"> Edit Contact</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="cancel">CANCEL</string>
+    <string name="name">Name:</string>
+    <string name="phone">Phone:</string>
+    <string name="home">Home</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="add_a_store">Add A New store</string>
+
+    <string name="convenience_store">convenience store</string>
+    <string name="hot_point">Hot point</string>
+    <string name="gas_station">gas station </string>
+    <string name="fire_department">fire department </string>
+    <string name="hospital">hospital </string>
+    <string name="restaurant">restaurant</string>
+    <string name="other">other</string>
+    <string name="police_station">police station </string>
+
+    <string name="setting">Setting</string>
+    <string name="navigate">Navigate</string>
+    <string name="help">Help</string>
+    <string name="light">Light</string>
+    <string name="language">Language</string>
+    <string name="location_not_open">Can not get your location</string>
+
+
+    <string name="input_your_information">Please Input Your Name</string>
+    <string name="name_intro">It is used in text when you toggle emergency call button</string>
+
+    <string name="phone_call_permission">Get phone call permission</string>
+    <string name="phone_call_permission_off">phone call permission close ,function not available</string>
+    <string name="phone_call_permission_title">open phone call permission</string>
+    <string name="phone_call_permission_msg">The phone call permission has been disabled, it needs to be enabled to use </string>
+    <string name="send_message_permission">Get send message permission</string>
+    <string name="send_message_permission_off">send message permission close ,function not available</string>
+    <string name="send_message_permission_title">open send message permission</string>
+    <string name="send_message_permission_msg">The send message permission has been disabled, it needs to be enabled to use </string>
+    <string name="location_permission">Get location permission</string>
+    <string name="location_permission_off">Get location permission close ,function not available</string>
+    <string name="location_permission_title">open location permission</string>
+    <string name="location_permission_msg">The location permission has been disabled, it needs to be enabled to use </string>
+    <string name="read_phone_number_permission">Get read phone number permission</string>
+    <string name="read_phone_number_permission_off">Get read phone number permission close ,function not available</string>
+    <string name="read_phone_number_permission_title">open ead phone number permission</string>
+    <string name="read_phone_number_permission_msg">The ead phone number permission has been disabled, it needs to be enabled to use </string>
+
+    <string name="convenience_store_on">Convenience Store On</string>
+    <string name="convenience_store_off">Convenience Store Off</string>
+    <string name="gas_station_on">Gas station On</string>
+    <string name="gas_statio_off">Gas station Off</string>
+    <string name="police_station_on">Police Station On</string>
+    <string name="police_station_off">Police Station Off</string>
+    <string name="navigation_on">Navigation On</string>
+    <string name="navigation_off">Navigation Off</string>
+    <string name="click_light_mode_on">Light mode On</string>
+    <string name="click_light_mode_off">Light mode Off</string>
+    <string name="fire_department_on">Fire Department On</string>
+    <string name="fire_department_off">Fire Department Off</string>
+    <string name="hospital_on">Hospital On</string>
+    <string name="hospital_off">Hospital Off</string>
+    <string name="restaurant_on">Restaurant On</string>
+    <string name="restaurant_off">Restaurant Off</string>
+    <string name="other_on">Other On</string>
+    <string name="other_off">Other Off</string>
+
+
+    <string name="continue_call_end">continue call end</string>
+    <string name="donot_set_contact">you don\'t setting contact!!! </string>
+
+    <string name="call_end">call end!!!! </string>
+
+    <string name="enter_all_info">Please enter all the information!! </string>
+
+    <string name="update_success">update success </string>
+
+    <string name="enter_right_phone_number"> Please enter right phone number</string>
+
+    <string name="time">Time </string>
+    <string name="distance">Distance </string>
+
+
+
+    <string name="safeplace1">When you want to go out and stay in safe place, open Safe place! \nIt can show opening stores and plan a path \nAlso, provide emergency help</string>
+
+    <string name="Navigation_title">Navigation</string>
+    <string name="Navigation_descri1">Follow the steps, it can lead you to the nearest opening store!</string>
+
+    <string name="Emergency_Call_title">Emergency Call</string>
+    <string name="Emergency_Call_descri1">Toggle it to call your emergency contact and send message with your location \nAlso, you can choose other emergency contact with long press</string>
+
+    <string name="Siren_title">Siren</string>
+    <string name="Siren_descri">Toggle it to make a loud and warning sound.</string>
+
+    <string name="Next_Or_Back_title">Next Or Back</string>
+    <string name="Next_Or_Back_descri">Toggle it to choose store in the nearest 5 stores you would like to navigate</string>
+
+    <string name="Emergency_Contact_title">Emergency Contact</string>
+    <string name="Emergency_Contact_descri">Add or edit your emergency contact information.</string>
+
+    <string name="Hot_Point_title">Hot spot</string>
+    <string name="Hot_Point_descri1">You can see all opening stores located \nBy switching the specific button, you will only see the store kind choosen on the map \nAlso, this won\'t effect the nearest 5 stores</string>
+
+
+    <string name="Night_mode_or_Light_mode_title">Light mode</string>
+    <string name="Night_mode_or_Light_mode_descri">You can switch mode which you like</string>
+
+
+    <string name="dark_map_id">fc18cda0b78b9e40</string>
+
+    <string name="add_store_send_success">Success send!</string>
+    <string name="add_store_send_failed">Failed send!</string>
+
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+
+    <string name="diologSiren">The alarm will be played loudly, are you sure?</string>
+
+    <string name="enter_wrong_type_info">Unavailable character is typed in</string>
+    <string name="enter_wrong_time">Time input is wrong</string>
+
+    <string name="new_data"> New Data!!</string>
+    <string name="new_data_content">There is new data to update, do you want to update it?</string>
+    <string name="url_is_expired">This url is expired</string>
+    <string name="SOS_fail">Failed to call for help, try again</string>
+
+
+    <string name="add_a_new_store">Add a Store</string>
+    <string name="add_a_new_store_descri">User can provide new stores information on map, and then will be updated in the new version</string>
+
+    <string name="report_wrong_store">Report Wrong Store</string>
+    <string name="report_wrong_store_descri">User can report the wrong store, and then will be revised in the new version</string>
+
+    <string name="update_data_from_server">Update Local Data</string>
+    <string name="update_data_from_server_descri">Information in app will be updated regularly to increase accuracy</string>
+
+    <string name="show_people_in_denger">Show Victim Track</string>
+    <string name="show_people_in_denger_descri">User in danger can send a link with a message to their emergency contact\nAnd then, emergency contact can see the victim\'s track on the map by clicking the link.</string>
+
+    <string name="Report_title">Report mistake</string>
+    <string name="Report_msg1">Do you want to report </string>
+    <string name="Report_msg2"> as an error message?</string>
+    <string name="Report_button1">information of place is mistake </string>
+    <string name="Report_button2">place is not exist</string>
+
+    <string-array name="store">
+        <item>Select A Store Kind</item>
+        <item>Convience Store</item>
+        <item>Gas Station</item>
+        <item>Police Station</item>
+        <item>Fire Department</item>
+        <item>Hospital</item>
+        <item>Restaurant</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="open_time">
+        <item>opening time</item>
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="close_time">
+        <item>closing time</item>
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+</resources>
