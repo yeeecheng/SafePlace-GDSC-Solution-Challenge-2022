@@ -1,25 +1,25 @@
 # SafePlace-GDSC-Solution-Challenge-2022
 
 ## About
-### Motivation
+### Motivation..
 
 Although traffic in Taiwan is already well-developed, walking from stations to homes is still quite distant and dangerous. Some roads are desolate and lack streetlights. We students are often anxious about walking home alone. There are many reports of schoolgirls being attacked and raped on their way to school or women being abducted and raped. We also conducted a survey among friends about whether it is worrying walking home alone at night. Most of them agree it is quite dangerous. Therefore, we design this app, **“Safe Place”**, to help users walking on the street more safely and securely. 
 
 ***
 
 ### We try to slove in SDGs...
-* #####  United Nations' Sustainable Development Goal 3: Good Health and Well-being
-   - ###### Ensure healthy lives and promote well-being for all at all ages
+* #####  United Nations' Sustainable Development Goal 3: Good Health and Well-being.
+   - ###### Ensure healthy lives and promote well-being for all at all ages.
  
-* #####  United Nations' Sustainable Development Goal 5: Gender Equality
-   - ###### Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation 
+* #####  United Nations' Sustainable Development Goal 5: Gender Equality.
+   - ###### Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.
 
-* #####  United Nations' Sustainable Development Goal 11: Sustainable Citys and Communitues
-   - ###### By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.” 
+* #####  United Nations' Sustainable Development Goal 11: Sustainable Citys and Communitues.
+   - ###### By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.
 
 ***
 
-### Safe Place is a service for
+### Safe Place is a service for...
 
 
 ##### 1. Demonstrating opening shops on the map which helps user plan a safer path to their destination.
@@ -35,11 +35,11 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
 ## Demo Video 
 #### (Click it will take you to Demo video of our APP.)
-<a href="https://www.youtube.com/watch?v=4DOmRT_W_Do&t=18s"><img src="https://i.imgur.com/JCnoj3q.jpg"  width=70%/></a>
+<a href="https://www.youtube.com/watch?v=Yw5sDzn6POA"><img src="https://i.imgur.com/JCnoj3q.jpg"  width=70%/></a>
 
 <br/>
 
-## How to use
+## How to use...
 
 
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/nearest_opening_shop.png  width=70% />
