@@ -96,11 +96,13 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
   <img src=https://i.imgur.com/ZzHaNab.jpeg width=50% />
 
   
-   
 ##### 3. Please ensure that the network connection and GPS are continuously turned on during use
    * ##### Internet and GPS are required as our project will send request to Google API to get information .
 
-##### 4.  Please do not run on the emulator.
+##### 4. Please use SafePlace in Taiwan .
+   * ##### 因為我們所有的資料處理都是以台灣為基礎設定的，若在其他國家使用的話，可能沒辦法使用全部的功能甚至出現bug.
+
+##### 5.  Please do not run on the emulator.
    * ##### Since our project uses GPS to plan a route and mark user's position, and make phone calls to ask for help, it does not work in virtual devices.
 
    * ##### Thus, you have to connect it with real device.
