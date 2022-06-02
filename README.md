@@ -42,14 +42,14 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 ## How to use...
 
 
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/nearest_opening_shop.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/navigation_button.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/switch_direction.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/siren_button.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/phone_button.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/contact_location.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/add_new_Store.png  width=70% />
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/report_wrong_store.png  width=70% />
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/nearest_opening_shop.png  width=70% alt="nearest opening shop "/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/navigation_button.png  width=70% "navigation button"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/switch_direction.png  width=70% "switch direction"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/siren_button.png  width=70% "siren button"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/phone_button.png  width=70% "phone button"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/contact_location.png  width=70% "contact button"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/add_new_Store.png  width=70% "add new store"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/report_wrong_store.png  width=70% "report wrong store"/>
 
 <br/>
 
@@ -68,14 +68,14 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 | Google Cloud Platform    |  We use Google Compute Engine to set up Server ,as shown in *Figure 2*.      |
 
 <hr>
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/Google_Map_platform.png width=70% />
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/Google_Map_platform.png width=70% alt="Google Map platform"/>
 
 ##### Figure 1.
 #### In its Architecture, we use Map SDK to present maps and Direction API to plan a route for navigation. 
 #### Then, the route will be painted by Maps SDK. 
 
 <hr>
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/upload_local_data.png width=70% />
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/upload_local_data.png width=70%  alt="upload local data"/>
 
 ##### Figure 2.
 #### Server is activated by Computer Engine for updating, revising app’s data and uploading,  
