@@ -78,7 +78,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/compute_engine.png width=70%  alt="upload local data"/>
 
 ##### *Figure 2.*
-#### Server is activated by Computer Engine for updating, revising app’s data and uploading,  
+#### Server is activated by Compute Engine for updating, revising app’s data and uploading,  
 #### acquiring user’s location. 
 
 <br/>
