@@ -42,6 +42,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 ## Introduce the function...
 
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/nearest_opening_shop.png  width=70% alt="nearest opening shop "/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/upload_data.png  width=70% "navigation button"/>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/navigation_button.png  width=70% "navigation button"/>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/switch_direction.png  width=70% "switch direction"/>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/siren_button.png  width=70% "siren button"/>
@@ -74,7 +75,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 #### Then, the route will be painted by Maps SDK. 
 
 <hr>
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/upload_local_data.png width=70%  alt="upload local data"/>
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/compute_engine.png width=70%  alt="upload local data"/>
 
 ##### *Figure 2.*
 #### Server is activated by Computer Engine for updating, revising app’s data and uploading,  
