@@ -132,7 +132,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
 ##### 1.  Add a new mode called “Safe Kid” . Parents can keep an eye on their children when they go to school or come back from school. 
 ##### 2.  Add another new mode called “Safe Elderly”. The elders who often get lost or have dementia can be located. Also, it can store their home address and navigate them to their own house to prevent accidents. 
-##### 3.  Combine points *first* and *second* , we would like to improve it to operate in the background. Or develop it to a lightweight version. Users can download it on smart watches and be located when the situation needs.
+##### 3.  Improve it to operate in the background. Or develop it to a lightweight version. Users can download it on smart watches and be located when the situation needs.
 
 <br/>
 
