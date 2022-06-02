@@ -70,14 +70,14 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 <hr>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/Google_Map_platform.png width=70% alt="Google Map platform"/>
 
-##### Figure 1.
+##### *Figure 1.*
 #### In its Architecture, we use Map SDK to present maps and Direction API to plan a route for navigation. 
 #### Then, the route will be painted by Maps SDK. 
 
 <hr>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/upload_local_data.png width=70%  alt="upload local data"/>
 
-##### Figure 2.
+##### *Figure 2.*
 #### Server is activated by Computer Engine for updating, revising app’s data and uploading,  
 #### acquiring user’s location. 
 
