@@ -8,13 +8,13 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 ***
 
 ### We try to slove in SDGs...
-* #####  United Nations' Sustainable Development Goal 3: Good Health and Well-being.
+* #####  *Goal 3*: Good Health and Well-being.
    - ###### Ensure healthy lives and promote well-being for all at all ages.
  
-* #####  United Nations' Sustainable Development Goal 5: Gender Equality.
+* #####  Goal *5*: Gender Equality.
    - ###### Eliminate all forms of violence against all women and girls in the public and private spheres, including trafficking and sexual and other types of exploitation.
 
-* #####  United Nations' Sustainable Development Goal 11: Sustainable Citys and Communitues.
+* #####  *Goal 11*: Sustainable Citys and Communitues.
    - ###### By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.
 
 ***
