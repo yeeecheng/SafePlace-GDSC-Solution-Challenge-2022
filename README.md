@@ -101,14 +101,14 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
    - #####  Then put your MAP_API_KEY in the position in the image below.
   <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/set_map_api.png width=50% />
 
-#### 4. You need to have a Phone with Android System and make sure your Android version is 9.0 .
+#### 4. You need to have a Android Phone and its version should be 9.0 .
   - ##### Because of the google API restriction, this has to be run on the Android 9.0 or above Android 9.0.
 
 #### 5. Connect the phone to the computer and confirm that your phone version is displayed on android studio.
   - ##### You can follow the steps of the https://developer.android.com/studio/run/device.
   - <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/Set_phone.png width=50% />
 
-#### 6. Finally , execute and experience SafePlace!
+#### 6. Finally , execute SafePlace!
 
 <br/>
 
@@ -116,10 +116,10 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
   
 ##### 1. Please ensure that the network connection and GPS are continuously turned on during use
-   * ##### Internet and GPS are required as our project will send request to Google API to get information .
+   * ##### Internet and GPS are required as our project will send requests to Google API to get information .
 
 ##### 2. Please use SafePlace in Taiwan .
-   * ##### Because all our data processing is set based on Taiwan, if it is used in other countries, it may not be able to use all functions or even bugs.
+   * ##### Because all data is based on Taiwan. If it is used in other countries, it may not be able to use all the functions..
 
 ##### 3.  Please do not run on the emulator.
    * ##### Since our project uses GPS to plan a route and mark user's position, and make phone calls to ask for help, it does not work in virtual devices.
