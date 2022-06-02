@@ -115,7 +115,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 ## Notice...
 
   
-##### 1. Please ensure that the network connection and GPS are continuously turned on during use
+##### 1. Please ensure that the network connection and GPS are turned on during using it
    * ##### Internet and GPS are required as our project will send requests to Google API to get information .
 
 ##### 2. Please use SafePlace in Taiwan .
