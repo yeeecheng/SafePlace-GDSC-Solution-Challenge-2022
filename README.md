@@ -35,7 +35,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
 ## Demo Video 
 #### (Click it will take you to Demo video of our APP.)
-<a href="https://www.youtube.com/watch?v=M1qu2-gCb5k"><img src="https://i.imgur.com/JCnoj3q.jpg"  width=70%/></a>
+<a href="https://www.youtube.com/watch?v=M1qu2-gCb5k"><img src="https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/demo_video.png"  width=70%/></a>
 
 <br/>
 
