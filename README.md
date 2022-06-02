@@ -61,7 +61,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
                                                             
 
 |  Products        |Details           | 
-| ------------- |:-------------|
+| :------------- |:-------------|
 | Android        | We build our project with Android Studio.      | 
 | Kotlin         | This is our main development language.       |  
 | Google Map Platform      | We use the Maps SDK and Google Direction API to display the information on the map, as shown in *Figure 1*.      |
