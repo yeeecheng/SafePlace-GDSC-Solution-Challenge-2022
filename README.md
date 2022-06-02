@@ -39,8 +39,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
 <br/>
 
-## How to use...
-
+## Introduce the function...
 
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/nearest_opening_shop.png  width=70% alt="nearest opening shop "/>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/navigation_button.png  width=70% "navigation button"/>
