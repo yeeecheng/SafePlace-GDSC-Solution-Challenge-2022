@@ -28,18 +28,18 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 ##### 4. Report wrong store information.
 ##### 5. Navigating to the nearest shop and update user’s location and direction.
 ##### 6. Calling to user’s emergency contact and send message with location to ask for help.
-##### 7. Send a hyperlink to user’s emergency contact to show user’s instant location for the next 30 minutes when user danger.
-##### 8. Playing the loudly siren to ask for help from those around user.
+##### 7. Send a hyperlink to user’s emergency contact to show user’s instant location for the next 30 minutes (when user danger).
+##### 8. Play siren to ask for help .
 
 <br/>
 
 ## Demo Video 
-#### (Click it will take you to Demo video .)
+#### (Click it to Demo video .)
 <a href="https://www.youtube.com/watch?v=M1qu2-gCb5k"><img src="https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/demo_video.png"  width=70%/></a>
 
 <br/>
 
-## Introduce the function...
+## Main Features...
 
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/nearest_opening_shop.png  width=70% alt="nearest opening shop "/>
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/upload_local_data.png  width=70% "navigation button"/>
@@ -60,7 +60,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 <img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/platform_used.png width=70% alt="platform we used" />
                                                             
 
-|  Products        |Functions           | 
+|  Products        |Details           | 
 | ------------- |:-------------|
 | Android        | We build our project with Android Studio.      | 
 | Kotlin         | This is our main development language.       |  
