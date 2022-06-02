@@ -84,7 +84,39 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 <br/>
 
 
-## Execution method
+## How to use our SafePlace...
+
+#### 1. Android Studio Setup:
+ - #####  Following the steps of the https://developer.android.com/studio to download the Android Studio.
+
+#### 2. Downlaod our project and open it with Anrdroid Studio.
+ - ##### SafePlace-GDSC-Solution-Challenge-2022 -> Code ->Download ZIP.
+ <img src=https://i.imgur.com/ZzHaNab.jpeg width=50% />
+ 
+ - ##### File -> New -> New Project -> "find our project and open it " .
+ <img src=https://i.imgur.com/ZzHaNab.jpeg width=50% />
+ 
+#### 3. You need to apply a MAP API KEY for Google Map API and Google Direction API
+   - #####  Following the steps of the https://developers.google.com/maps/documentation/android-sdk/get-api-key?hl=zh-tw to get your own MAP API KEY.
+   - #####  Then put your MAP_API_KEY in the position in the image below.
+  <img src=https://i.imgur.com/ZzHaNab.jpeg width=50% />
+
+#### 4. You need to have a Phone with Android System and make sure your Android version is 9.0 .
+  - ##### Because of the google API restriction, this has to be run on the Android 9.0 or above Android 9.0.
+
+#### 5. Connect the phone to the computer and confirm that your phone version is displayed on android studio.
+  - ##### You can follow the steps of the https://developer.android.com/studio/run/device.
+  - <img src=https://i.imgur.com/ZzHaNab.jpeg width=50% />
+
+#### 6. Finally , execute and experience SafePlace!
+
+
+
+
+
+
+
+
 
 ##### 1. You have to make sure your Android version is 9.0
    * ##### Because of the google API restriction, this has to be run on the Android 9.0 or above Android 9.0.
