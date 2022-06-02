@@ -140,9 +140,9 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
 
 
-|YiCheng Liao |https://github.com/yeeecheng| 
+|Yi-Cheng Liao |https://github.com/yeeecheng| 
 | :-----|:-----|
-|YuYi Chuang | https://github.com/Sunny1928|
-|YuYi Chu | https://github.com/Yui-Arthur|
-|PinYu Li |https://github.com/Pinponyu|
+|Yu-Yi Chuang | https://github.com/Sunny1928|
+|Yu-Yi Chu | https://github.com/Yui-Arthur|
+|Pin-Yu Li |https://github.com/Pinponyu|
 
