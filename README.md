@@ -57,7 +57,7 @@ Although traffic in Taiwan is already well-developed, walking from stations to h
 
 ## IDE and Platform for Project
 
-<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/platform_used.png width=70% />
+<img src=https://github.com/yeeecheng/SafePlace-GDSC-Solution-Challenge-2022/blob/main/README_Assets/platform_used.png width=70% alt="platform we used" />
                                                             
 
 |  Products        |Functions           | 
