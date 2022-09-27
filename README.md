@@ -1,7 +1,7 @@
 # SafePlace-GDSC-Solution-Challenge-2022
 
 ## About
-### Motivation..
+### Motivation...
 
 Although traffic in Taiwan is already well-developed, walking from stations to homes is still quite distant and dangerous. Some roads are desolate and lack streetlights. We students are often anxious about walking home alone. There are many reports of schoolgirls being attacked and raped on their way to school or women being abducted and raped. We also conducted a survey among friends about whether it is worrying walking home alone at night. Most of them agree it is quite dangerous. Therefore, we design this app, **“Safe Place”**, to help users walking on the street more safely and securely. 
 
