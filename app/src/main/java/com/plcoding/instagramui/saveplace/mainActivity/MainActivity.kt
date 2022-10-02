@@ -80,7 +80,8 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
     private var message:String = "help me! "
     private var userName:String ="user"
     private var hasClickedButton=false
-    private var ip="35.206.214.161"
+    private var ip="114.33.145.3"
+    private var port = 1234
 
     private lateinit var alertMedia: Alert
     private lateinit var permissionManager : PermissionManager
@@ -762,7 +763,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
                     if (fragment_home.currentLocationIsInitialized()) {
 
-                        var client = clientSocket(ip, 3333)
+                        var client = clientSocket(ip, port)
                         client.initConnect()
                         client.checkOTPToGetId(listOtpKeyIv[0])
                         victimId = client.receiveMessage()
@@ -988,7 +989,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
     //check store data version
     private fun getNewVersion(version:String):String{
-        var client = clientSocket(ip,3333)
+        var client = clientSocket(ip,port)
         client.initConnect()
         client.checkDataVersion(version)
         var data = client.receiveMessage()
@@ -1004,7 +1005,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
     //upload new data from server
     private fun uploadData(version: String):String{
-        var client = clientSocket(ip,3333)
+        var client = clientSocket(ip,port)
         client.initConnect()
         client.uploadDataVersion(version)
         var data = client.receiveMessage()
@@ -1033,7 +1034,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
         if (fragment_home.currentLocationIsInitialized()&&list_of_otp.isEmpty())
         {
-            var client = clientSocket(ip, 3333)
+            var client = clientSocket(ip, port)
             client.initConnect()
             client.sendRequestOfOtp()
             list_of_otp = ArrayList(client.receiveMessage().split(" "))
