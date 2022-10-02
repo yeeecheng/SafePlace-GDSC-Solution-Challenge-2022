@@ -121,7 +121,7 @@ class clientSocket(IP:String ,Port:Int) {
 
                 while(currentDataSize!=dataSize){
                     //sleep(10)
-                    Log.d("clientdata",currentDataSize.toString()+" "+dataSize)
+                    //Log.d("clientdata",currentDataSize.toString()+" "+dataSize)
                     readMsg = ByteArray(1024)
                     msgLen =clientInputStream!!.read(readMsg)
                     if(msgLen<0){

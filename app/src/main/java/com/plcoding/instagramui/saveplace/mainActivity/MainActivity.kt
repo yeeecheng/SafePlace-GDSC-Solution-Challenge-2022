@@ -57,6 +57,7 @@ import com.plcoding.instagramui.saveplace.fragment.intro.IntroFragment
 import com.plcoding.instagramui.saveplace.fragment.map.HomeFragment
 import com.plcoding.instagramui.saveplace.introActivity.IntroActivity
 import com.plcoding.instagramui.saveplace.mainActivity.AESCrypt.toHex
+import java.lang.Thread.sleep
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -175,19 +176,17 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
             var newVersion:String
             var data=""
             currentVersion = fo.readFile(this,"dataVersion.txt")
-            Log.d("version",currentVersion)
+
             //when first open APP ,it will download new data directly
             if(currentVersion==""){
 
                 currentVersion="v0"
 
                 newVersion =getNewVersion(currentVersion)
-                Log.d("dd",newVersion.toString())
                 data = uploadData(currentVersion)
 
                 var addNum =data.split("\n"," ")
                 while(addNum.size==1){
-
                     data = uploadData(currentVersion)
                     addNum =data.split("\n"," ")
                 }
@@ -198,9 +197,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
             }
             //otherwise
             else {
-
                 newVersion =getNewVersion(currentVersion)
-                Log.d("dd",newVersion.toString())
 
                 val mHandler = Handler(Looper.getMainLooper())
                 mHandler.postDelayed( {
@@ -994,18 +991,21 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
         client.checkDataVersion(version)
         var data = client.receiveMessage()
         client.closeConnect()
-        var str =data.split(" ")
+        var str = data.split(" ")
 
         //check return is correct
         if(str.size==1){
+            sleep(2000)
             return getNewVersion(version)
         }
+
         return str[0]
     }
 
     //upload new data from server
     private fun uploadData(version: String):String{
         var client = clientSocket(ip,port)
+
         client.initConnect()
         client.uploadDataVersion(version)
         var data = client.receiveMessage()
