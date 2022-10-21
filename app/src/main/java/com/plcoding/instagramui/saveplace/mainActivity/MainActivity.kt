@@ -103,6 +103,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
     private lateinit var fabBack:FloatingActionButton
     private lateinit var fabVictim:FloatingActionButton
     private lateinit var phoneCallMenu:View
+    private var has_fabVictim:Boolean = false
 
     private  var hasOpenMenu=false
     private  var direction:String =""
@@ -267,8 +268,9 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
         //get User's Name and PhoneNumber
         getUserName()
-        getUserPhoneNumber()
-
+        if(permissionManager.getReadPhoneNumberPermissionGrated()){
+            getUserPhoneNumber()
+        }
 
 
         //set init button's state
@@ -746,6 +748,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
         if(uri != null){
             fabVictim.visibility = View.VISIBLE;
+            has_fabVictim=true
             //var otpKeyIv = uri.path?.substring(1).toString()
             var listOtpKeyIv : ArrayList<String> = ArrayList(uri.toString().split('?'))
 
@@ -771,6 +774,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
                             val mHandler = Handler(Looper.getMainLooper())
                             mHandler.post {
                                 fabVictim.visibility = View.GONE;
+                                has_fabVictim= false
                                 Toast.makeText(this, R.string.url_is_expired, Toast.LENGTH_SHORT).show()
                             }
                             break
@@ -793,7 +797,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
 
         fabPhone.setOnClickListener {
 
-
+            getUserPhoneNumber()
             phoneCallMenu.visibility = View.GONE
             hasClickedButton=true
             if(checkHasContact()&&!hasOpenMenu&&permissionManager.checkPermissionAfterClickPhoneButton(this,this)){
@@ -1067,6 +1071,9 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
                 fabNavigation.visibility = View.VISIBLE
                 fabPhone.visibility = View.VISIBLE
                 fabSiren.visibility = View.VISIBLE
+                if(has_fabVictim){
+                    fabVictim.visibility =View.VISIBLE
+                }
                 bottomSheet.visibility = View.VISIBLE
                 fabNext.visibility = View.VISIBLE
                 fabBack.visibility = View.VISIBLE
@@ -1075,6 +1082,9 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
                 fabNavigation.visibility = View.GONE
                 fabPhone.visibility = View.GONE
                 fabSiren.visibility = View.GONE
+                if(has_fabVictim){
+                    fabVictim.visibility =View.GONE
+                }
                 bottomSheet.visibility = View.GONE
                 fabNext.visibility = View.GONE
                 fabBack.visibility = View.GONE
@@ -1085,11 +1095,11 @@ class MainActivity : AppCompatActivity(), SensorEventListener  {
     //get location , phone call and  send message
     private fun getUserPhoneNumber(){
         val mTelManager = getSystemService(TELEPHONY_SERVICE) as TelephonyManager
-
+        Log.d("phone",userPhoneNumber)
         userPhoneNumber = mTelManager.line1Number
 
         userPhoneNumber="0"+userPhoneNumber.substring(4)
-        Log.d("phone",userPhoneNumber)
+
 
     }
 

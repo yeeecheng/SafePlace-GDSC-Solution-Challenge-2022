@@ -19,9 +19,9 @@ import com.plcoding.instagramui.saveplace.mainActivity.clientSocket
 
 class AddNewStoreFragment : Fragment(){
 
-    private var ip="35.206.214.161"
+    private var ip="114.33.145.3"
 
-
+    private var port = 1234
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -210,7 +210,7 @@ class AddNewStoreFragment : Fragment(){
             Log.d("data3","click@@@@!!!")
             Thread{
                 Log.d("data3","click!!!")
-                var client = clientSocket(ip,3333)
+                var client = clientSocket(ip,port)
                 client.initConnect()
 
                 client.addNewStore(storeName,kindChange(storeKinds),storeInformation,storeAddress,storeOpeningTime,storeClosingTime)

@@ -19,6 +19,19 @@
         <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_baseline_local_fire_department_24.xml" value="0.1" />
         <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_baseline_local_gas_station.xml" value="0.1" />
         <entry key="..\:/Users/yicheng/Desktop/SafePlace/app/src/main/res/drawable/ic_danger.xml" value="0.1" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/activity_intro.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/call_contact_item.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/contact_fragment.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/contact_item.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/dialog_edit_contact_item.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/infowindow.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/intro_fragment.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/intro_screen.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/spinner_item.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/switch_gas_station.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/switch_navigation.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/layout/switch_police_station.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/yicheng/Desktop/github/SafePlace-GDSC-Solution-Challenge-2022/app/src/main/res/menu/nav_menu.xml" value="0.2708333333333333" />
       </map>
     </option>
   </component>

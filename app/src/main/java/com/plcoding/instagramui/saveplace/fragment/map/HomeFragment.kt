@@ -89,7 +89,8 @@ class HomeFragment(PM: PermissionManager) : Fragment(), GoogleMap.OnMyLocationBu
 
     private lateinit var  mapFragment :SupportMapFragment
 
-
+    private var ip="114.33.145.3"
+    private var port = 1234
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
@@ -309,7 +310,7 @@ class HomeFragment(PM: PermissionManager) : Fragment(), GoogleMap.OnMyLocationBu
                     //Log.d("track", "error: $ask")
                     Thread {
                         var ask = "REPORT|$uid|WRONG DATA"
-                        var client = clientSocket("35.206.214.161", 3333)
+                        var client = clientSocket(ip, port)
                         client.initConnect()
 
                         Log.d("track", "error: $ask")
@@ -327,7 +328,7 @@ class HomeFragment(PM: PermissionManager) : Fragment(), GoogleMap.OnMyLocationBu
 
                     Thread {
                         var ask = "REPORT|$uid|NOT EXIST"
-                        var client = clientSocket("35.206.214.161", 3333)
+                        var client = clientSocket(ip, port)
                         client.initConnect()
 
                         Log.d("track", "error: $ask")
@@ -632,7 +633,7 @@ class HomeFragment(PM: PermissionManager) : Fragment(), GoogleMap.OnMyLocationBu
             for(i in trackDatatmp){
 
 
-                client = clientSocket("35.206.214.161",3333)
+                client = clientSocket(ip,port)
                 client.initConnect()
 
                 var data= aes.encrypt(key, iv, i.first)
@@ -659,7 +660,7 @@ class HomeFragment(PM: PermissionManager) : Fragment(), GoogleMap.OnMyLocationBu
 
                 Thread{
 
-                    client = clientSocket("35.206.214.161",3333)
+                    client = clientSocket(ip,port)
                     client.initConnect()
 
                     val rightNow = Calendar.getInstance()
@@ -740,7 +741,7 @@ class HomeFragment(PM: PermissionManager) : Fragment(), GoogleMap.OnMyLocationBu
                 Thread{
 
                     Log.d("track", "waitconnect")
-                    client = clientSocket("35.206.214.161",3333)
+                    client = clientSocket(ip,port)
                     client.initConnect()
 
                     var stand = "GETLOC|$id|${tracktime}+8"
